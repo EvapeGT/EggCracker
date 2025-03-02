@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6B6B</color>
+    <color name="colorPrimaryDark">#E84545</color>
+    <color name="colorAccent">#FFA5A5</color>
+
+    <!-- App theme colors -->
+    <color name="background_color">#F9F7F7</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#2B2E4A</color>
+    <color name="text_secondary">#6B6E8B</color>
+
+    <!-- Egg colors -->
+    <color name="egg_shell">#FFF9DB</color>
+    <color name="egg_highlight">#FFFFFF</color>
+    <color name="egg_shadow">#FFE5B9</color>
+    <color name="egg_crack">#E74646</color>
+</resources>

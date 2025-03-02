@@ -1,0 +1,23 @@
+<!-- res/drawable/egg_uncracked.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Egg shadow -->
+    <path
+        android:fillColor="@color/egg_shadow"
+        android:pathData="M50,85 Q70,85 82,70 Q95,55 95,35 Q95,15 70,5 Q60,0 50,0 Q40,0 30,5 Q5,15 5,35 Q5,55 18,70 Q30,85 50,85 Z" />
+
+    <!-- Egg main body -->
+    <path
+        android:fillColor="@color/egg_shell"
+        android:pathData="M50,80 Q68,80 78,67 Q90,53 90,35 Q90,17 68,8 Q59,4 50,4 Q41,4 32,8 Q10,17 10,35 Q10,53 22,67 Q32,80 50,80 Z" />
+
+    <!-- Egg highlight -->
+    <path
+        android:fillColor="@color/egg_highlight"
+        android:pathData="M40,20 Q45,15 55,15 Q65,15 70,20 Q75,25 75,35 Q75,45 65,55 Q55,65 45,55 Q35,45 35,35 Q35,25 40,20 Z"
+        android:fillAlpha="0.4" />
+</vector>

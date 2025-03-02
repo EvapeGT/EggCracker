@@ -1,0 +1,44 @@
+<!-- res/drawable/noise_pattern.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M0,0 L1,0 L1,1 L0,1 z"
+        android:fillAlpha="0.02"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M4,4 L5,4 L5,5 L4,5 z"
+        android:fillAlpha="0.04"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M12,8 L13,8 L13,9 L12,9 z"
+        android:fillAlpha="0.03"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M24,16 L25,16 L25,17 L24,17 z"
+        android:fillAlpha="0.02"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M32,32 L33,32 L33,33 L32,33 z"
+        android:fillAlpha="0.04"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M48,24 L49,24 L49,25 L48,25 z"
+        android:fillAlpha="0.03"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M56,48 L57,48 L57,49 L56,49 z"
+        android:fillAlpha="0.02"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M16,56 L17,56 L17,57 L16,57 z"
+        android:fillAlpha="0.04"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M36,44 L37,44 L37,45 L36,45 z"
+        android:fillAlpha="0.03"/>
+</vector>

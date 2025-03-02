@@ -1,0 +1,110 @@
+<!-- res/drawable/egg_cracked.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Egg shadow -->
+    <path
+        android:fillColor="@color/egg_shadow"
+        android:pathData="M50,85 Q70,85 82,70 Q95,55 95,35 Q95,15 70,5 Q60,0 50,0 Q40,0 30,5 Q5,15 5,35 Q5,55 18,70 Q30,85 50,85 Z" />
+
+    <!-- Egg main body -->
+    <path
+        android:fillColor="@color/egg_shell"
+        android:pathData="M50,80 Q68,80 78,67 Q90,53 90,35 Q90,17 68,8 Q59,4 50,4 Q41,4 32,8 Q10,17 10,35 Q10,53 22,67 Q32,80 50,80 Z" />
+
+    <!-- Egg highlight -->
+    <path
+        android:fillColor="@color/egg_highlight"
+        android:pathData="M40,20 Q45,15 55,15 Q65,15 70,20 Q75,25 75,35 Q75,45 65,55 Q55,65 45,55 Q35,45 35,35 Q35,25 40,20 Z"
+        android:fillAlpha="0.4" />
+
+    <!-- Speckles -->
+    <path
+        android:fillColor="#5D3D2B"
+        android:pathData="M35,25 A2,2 0 1,1 39,25 A2,2 0 1,1 35,25 Z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="#5D3D2B"
+        android:pathData="M65,35 A1.5,1.5 0 1,1 68,35 A1.5,1.5 0 1,1 65,35 Z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="#5D3D2B"
+        android:pathData="M45,60 A2,2 0 1,1 49,60 A2,2 0 1,1 45,60 Z"
+        android:fillAlpha="0.4" />
+
+    <!-- Yolk showing through cracks -->
+    <path
+        android:fillColor="@color/egg_yolk"
+        android:pathData="M50,45 A5,5 0 1,1 60,45 A5,5 0 1,1 50,45 Z"
+        android:fillAlpha="0.7" />
+
+    <!-- Main cracks - thicker and deeper -->
+    <path
+        android:strokeColor="@color/egg_crack"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,30 L50,45 L70,30" />
+
+    <path
+        android:strokeColor="@color/egg_crack"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M50,45 L50,70" />
+
+    <path
+        android:strokeColor="@color/egg_crack"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M35,40 L20,35" />
+
+    <path
+        android:strokeColor="@color/egg_crack"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M65,40 L80,35" />
+
+    <!-- Additional smaller cracks -->
+    <path
+        android:strokeColor="@color/egg_crack"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M40,50 L30,55" />
+
+    <path
+        android:strokeColor="@color/egg_crack"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M60,50 L70,55" />
+
+    <path
+        android:strokeColor="@color/egg_crack"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M45,30 L40,20" />
+
+    <path
+        android:strokeColor="@color/egg_crack"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M55,30 L60,20" />
+
+    <!-- Shadow/depth around cracks -->
+    <path
+        android:strokeColor="#5D3D2B"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,30 L50,45 L70,30"
+        android:strokeAlpha="0.3" />
+</vector>

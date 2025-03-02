@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6B6B</color>
+    <color name="colorPrimaryDark">#E84545</color>
+    <color name="colorAccent">#FFA5A5</color>
+
+    <!-- App theme colors -->
+    <color name="background_color">#F0F4F8</color> <!-- Slightly blue-tinted background -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#2B2E4A</color>
+    <color name="text_secondary">#6B6E8B</color>
+
+    <!-- Egg colors -->
+    <color name="egg_shell">#9E6B53</color> <!-- Brown shell color -->
+    <color name="egg_highlight">#B7866F</color> <!-- Lighter brown highlight -->
+    <color name="egg_shadow">#7D4E39</color> <!-- Darker brown shadow -->
+    <color name="egg_crack">#CB4040</color> <!-- Brighter red for cracks -->
+    <color name="egg_yolk">#FFD966</color> <!-- Yellow yolk color -->
+</resources>
